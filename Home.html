@@ -89,7 +89,7 @@
                         items: 1
                     },
                     768: {
-                        items: 1
+                        items: 1,
                     },
                     1000: {
                         items: 1
@@ -98,6 +98,7 @@
             });
         });
     </script>
+    
     <section class="book">
         <div class="container flex_space">
             <div class="text">
@@ -122,7 +123,7 @@
         <div class="container flex">
             <div class="left">
               <div class="heading">
-    <h1>Welcome</h1>
+   
     <h2>ABC Hotel</h2>
 </div>
 <p>
@@ -134,5 +135,109 @@
 </div>
         </div>
     </section>
+    <section class="about top">
+    </section>
+    <section class="counter top">
+    
+        <div class="container grid">
+            <div class="box">
+                <h1>2500</h1>
+                <hr>
+                <span> Customer</span>
+            </div>
+            <div class="box">
+                <h1>1200</h1>
+                <hr>
+                <span>Happy Customer</span>
+            </div>
+            <div class="box">
+                <h1>150</h1>
+                <hr>
+                <span>Expert Technicians</span>
+            </div>
+            <div class="box">
+                <h1>3500</h1>
+                <hr>
+                <span>Desktop Reaired</span>
+            </div>
+        </div>
+
+    </section>
+    
+
+    <section class="rooms">
+        <div class="container top">
+            <div class="heading">
+                <h1>EXPLORE</h1>
+                <h2>Our Rooms</h2>
+                <p>"Indulge in unparalleled comfort with our hotel's exquisite room services, offering a seamless blend of convenience and luxury for an unforgettable stay."</p>
+            </div>
+            <div class="content mtop">
+                <div class="owl-carousel owl-carousel1 owl-theme">
+    
+                    <div class="item">
+                        <div class="image">
+                            <img src="modern-luxury-bedroom-suite-and-bathroom-with-working-table-scaled.jpg" alt="Superior Room Image 1">
+                        </div>
+                        <div class="text">
+                            <h2>Superior Rooms</h2>
+                            <div class="rate flex"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                            <p>"Indulge in unparalleled comfort with our hotel's exquisite room services, offering a seamless blend of convenience and luxury for an unforgettable stay."</p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>5000 Taka <span><br> Per Night</span></h3>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="item">
+                        <div class="image">
+                            <img src="140127103345-peninsula-shanghai-deluxe-mock-up.jpg" alt="Superior Room Image 2">
+                        </div>
+                        <div class="text">
+                            <h2>Superior Rooms</h2>
+                            <div class="rate flex"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                            <p>"Indulge in unparalleled comfort with our hotel's exquisite room services, offering a seamless blend of convenience and luxury for an unforgettable stay."</p>
+                            <div class="button flex">
+                                <button class="primary-btn">BOOK NOW</button>
+                                <h3>5000 Taka <span><br> Per Night</span></h3>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Add more items as needed -->
+    
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.owl-carousel1').owlCarousel({
+            loop: true,
+            margin: 40,
+            nav: true,
+            dots: false,
+            navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2,
+                    margin: 10,
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+    });
+</script>
 </body>
+
 </html>
